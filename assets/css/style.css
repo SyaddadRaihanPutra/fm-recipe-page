@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css2?family=Young+Serif&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap);
+body{margin:0;padding:0;box-sizing:border-box;background-color:#f3e5d7;color:#5f564e}
+.wrapper{display:flex;flex-direction:column;align-items:center;justify-content:center}
+.card{width:80%;max-width:700px;border-radius:15px;box-shadow:0 0 10px rgba(0,0,0,.1);margin-top:50px;margin-bottom:50px;background-color:#fff;padding:35px}
+.card img{width:100%;border-radius:10px;margin-bottom:20px}
+.card h1.recipe-title{font-family:'Young Serif',serif;font-weight:400;margin-bottom:10px;color:#302d2b}
+.card p.recipe-description{font-family:Outfit,sans-serif;margin-bottom:20px;font-weight:400}
+.card .recipe-preparation{font-family:Outfit,sans-serif;font-weight:400;margin-bottom:20px;display:flex;flex-direction:column;background-color:#fff4f9;padding:20px}
+.card .recipe-preparation h3{font-weight:600;margin-bottom:10px;color:#7b274e}
+.card .recipe-preparation ul.recipe-list{padding-left:30px}
+.card .recipe-preparation ul.recipe-list li{margin-bottom:10px}
+.card .recipe-preparation ul.recipe-list li::marker{color:#7b274e}
+.card .recipe-preparation ul.recipe-list li p b{color:#302d2b}
+.card .recipe-preparation ul.recipe-list li p{padding-left:15px}
+h1.subtitle{font-family:'Young Serif',serif;font-weight:400;margin-bottom:10px;color:#854532}
+.card ul{font-family:Outfit,sans-serif;padding-left:30px}
+.card ul li::marker{color:#854532}
+.card ul li{margin-bottom:10px}
+.divider{margin:30px 0;border-bottom:.1rem solid #e3ddd7}
+.card ol{font-family:Outfit,sans-serif;padding-left:30px}
+.card ol li::marker{font-weight:800;color:#854532}
+.card ol li b{color:#302d2b}
+.card ol li{margin-bottom:10px}
+.card ol li p{padding-left:10px}
+.card table{width:100%;border-collapse:collapse;font-family:Outfit,sans-serif;margin-top:20px}
+.card table tr{border-bottom:1px solid #e3ddd7}
+.card table tr td{padding:10px 25px;color:#854532}
+.card table tr td:last-child{font-weight:600}
+.card table tr:last-child{border-bottom:none}
+.attribution{font-family:Outfit,sans-serif;color:#5f564e;margin-bottom:20px;text-align:center}
+.attribution a{color:#854532;text-decoration:none;font-weight:600}
+@media (max-width:768px){
+.card{padding:20px}
+.card img{margin-bottom:10px}
+.card h1.recipe-title{font-size:1.5rem}
+.card p.recipe-description{font-size:.9rem}
+.card .recipe-preparation h3{font-size:1rem}
+.card .recipe-preparation ul.recipe-list li p{font-size:.8rem}
+h1.subtitle{font-size:1.2rem}
+.card ul{font-size:.9rem}
+.card ol{font-size:.9rem}
+.card table tr td{padding:10px 15px}
+.attribution{font-size:.8rem}
+}
